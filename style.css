@@ -1,3 +1,48 @@
-h1 {
-    color: pink;
+.hero-section,
+footer {
+  background-color: #1f2937;
 }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-secondary {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-container {
+  display: flex;
+}
+
+ul {
+    display: flex;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style-type: none;
+  margin: 0px 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 20px;
+}
+
+.hero-section .info-section .testimonial-section;
