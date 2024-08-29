@@ -77,6 +77,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding-bottom: 40px;
+  margin: 0px 120px;
 }
 
 li {
@@ -94,12 +95,14 @@ button {
   border-radius: 10px;
   color: white;
   font-size: 15px;
+  border: 1px solid white;
 }
 
 .cards {
   display: flex;
   flex-direction: row;
-
+  align-items: center;
+  margin: 50px 200px;
 }
 
 .card {
@@ -125,7 +128,7 @@ button {
 }
 
 .info-section {
-    margin: 0px 200px;
+    margin: 50px 250px;
 }
 
 .testimonials-section { 
@@ -147,6 +150,39 @@ button {
     padding: 0px 200px;
 }
 
+blockquote {
+  width: 60%;
+}
+
 .testimonials-section span {
-    text-align: right;
+    float: right;
+    font-size: 24px;
+    padding-top: 18px;
+}
+
+.call-to-action-section {
+
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 15vh;
+  width: 50%;
+  margin:  50px auto;
+  border-radius: 10px;
+  padding: 10px 0px;
+}
+
+.call-to-action-section h2 {
+  margin: 0px;
+}
+
+footer {
+  height: 10vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
