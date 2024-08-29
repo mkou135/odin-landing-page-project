@@ -1,14 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .hero-section,
 footer {
   background-color: #1f2937;
 }
-
+main {
+  font-family: "Roboto", sans-serif;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 48px;
   color: #f9faf8;
+  margin: 0;
+}
+
+p {
+    margin: 0;
+}
+.hero-section {
+  padding: 5px 150px;
+
 }
 
 .hero-secondary {
@@ -17,18 +39,44 @@ h1 {
   color: #e5e7eb;
 }
 
+.hero-text {
+    flex-basis: 50%;
+    padding:0;
+}
+
+.hero-image {
+  align-self: center;
+  justify: center;
+}
+
 .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  
+}
+
+.logo {
   display: flex;
+  align-items: center;
+  font-size: 24px;
+  text: ;
 }
 
 ul {
-    display: flex;
-
+  display: flex;
 }
 
+.nav-links a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-bottom: 40px;
 }
 
 li {
@@ -37,12 +85,68 @@ li {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 button {
-    background-color: #3882f6;
-    padding: 20px;
+  background-color: #3882f6;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
 }
 
-.hero-section .info-section .testimonial-section;
+.cards {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    margin: 0px 5px;
+}
+
+.card p {
+    text-align: center;
+    margin:10px 30px;
+    font-size: 15px;
+}
+
+.info-section h2{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-section {
+    margin: 0px 200px;
+}
+
+.testimonials-section { 
+    background-color: #e5e7eb;
+    height: 50vh;
+}
+
+.testimonials-section p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    color: #1f2937;
+}
+
+.testimonials-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 200px;
+}
+
+.testimonials-section span {
+    text-align: right;
+}
